@@ -1,6 +1,6 @@
 variable "resource_group_name" {
     type =  string 
-    default = "yanka13"
+    description = "the name of your already existing resource group. It should be your github username"
 }
 
 variable "location" {
